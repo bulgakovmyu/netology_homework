@@ -12,7 +12,7 @@
 
 1) Cклонируйте репозиторий курса:
 
-`git clone https://github.com/Samsung-IT-Academy/stepik-dl-nlp.git`
+`git clone https://github.com/bulgakovmyu/netology_homework.git`
 
 2) В терминале выполните команду:
 
@@ -20,27 +20,9 @@
 
 3) Запустите ноутбук:
 
-`ipython notebook`
+`netology_homework/notebooks/CrispDM_WineQualityAnalysis.ipynb`
 
 
-Чтобы запустить ноутбук на [Google Colab](https://colab.research.google.com):
-
-1) Скачайте ноутбук (вкладка Github, затем прописываете адрес репозитория.
-
-2) Запустите ноутбук.
-
-3) Чтобы выкачать на colab библиотеку dlnlputils, не забудьте выполнить команду в первой ячейке:
-
-```
-!git clone https://github.com/Samsung-IT-Academy/stepik-dl-nlp.git && pip install -r stepik-dl-nlp/requirements.txt
-import sys; sys.path.append('./stepik-dl-nlp')
-```
-
-4) Не забудьте настроить `device='cpu'` или `device='cuda'`, а также выбрать подходящий Runtime в Google Colab (CPU/TPU/GPU).
-
-А также следуйте комментариям касательно путей внутри ноутбуков.
-
-Ноутбуки также работают и на Kaggle Notebooks.
 
 
 ## Датасет
