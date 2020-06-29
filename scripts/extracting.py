@@ -20,4 +20,4 @@ def load_kaggle_data(path_copied_from_kaggle):
     except FileNotFoundError as e:
         print('Архив не найден!')
         print(e)
-
+        
