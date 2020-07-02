@@ -12,12 +12,12 @@ def load_kaggle_data(path_copied_from_kaggle):
         print('Обращение к источнику не выполнено =(')
         sys.exit(1)
 
-    try:
-        zf = ZipFile("..//data//wine-quality.zip", 'r')
-        zf.extractall("..//data")
-        zf.close()
-        os.remove("..//data//wine-quality.zip")
-    except FileNotFoundError as e:
-        print('Архив не найден!')
-        print(e)
+#     try:
+#         zf = ZipFile("..//data//wine-quality.zip", 'r')
+#         zf.extractall("..//data")
+#         zf.close()
+#         os.remove("..//data//wine-quality.zip")
+#     except FileNotFoundError as e:
+#         print('Архив не найден!')
+#         print(e)
         
