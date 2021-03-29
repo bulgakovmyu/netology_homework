@@ -94,7 +94,7 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pyconll==2.2.1
 pycparser==2.20
-Pygments==2.6.1
+Pygments==2.7.4
 pymorphy2==0.8
 pymorphy2-dicts==2.4.393442.3710985
 pyOpenSSL==19.1.0
